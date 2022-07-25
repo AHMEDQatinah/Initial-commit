@@ -51,7 +51,7 @@ header ul li a {
   border-radius: 20px;
 }
 
-header ul li a:hover{
+header ul li a:hover {
   font-family: Georgia, "Times New Roman", Times, serif Script MT;
   background: rgb(0, 0, 0);
   color: red;
@@ -170,13 +170,14 @@ footer {
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 60px;
+  height: 70px;
 }
 .load div {
   width: 20px;
   height: 20px;
   background: linear-gradient(brown, gold);
   margin: 9px;
+  margin-bottom: 45px;
   border-radius: 50%;
   animation-name: up-down;
   animation-duration: 0.5s;
@@ -319,7 +320,9 @@ footer {
     transform: translateY(50px);
   }
 }
-.qmq{
+
+
+.qmq {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -344,7 +347,12 @@ footer {
   flex-direction: column-reverse;
   line-height: 1.5;
 }
-.ChevroletCorvette{
+.qaq {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.ChevroletCorvette {
   margin: 40px;
   padding: 40px;
   border: 5px solid #4e0649;
@@ -354,7 +362,7 @@ footer {
   flex-direction: column;
   line-height: 1.5;
 }
-.AstonMartin{
+.AstonMartin {
   margin: 40px;
   padding: 40px;
   border: 5px solid #4e0649;
@@ -364,14 +372,13 @@ footer {
   flex-direction: column-reverse;
   line-height: 1.5;
 }
-.eer4{
+.eer4 {
   display: flex;
   justify-content: center;
   align-items: center;
-  margin: 20px auto;
-  border: 5px solid linear-gradient(brown,gold,rgb(255, 255, 255));;
+  margin: auto;
 }
-.eer4 p{
+.eer4 p {
   font-size: 40px;
   font-family: cursive;
 }

@@ -318,7 +318,9 @@ footer {
     transform: translateY(50px);
   }
 }
-.q{
+
+
+.qmq {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -328,27 +330,53 @@ footer {
   padding: 40px;
   border: 5px solid #4e0649;
   width: 500px;
-  height: 800px;
+  height: 900px;
   display: flex;
   flex-direction: column;
+  line-height: 1.5;
 }
 .Jaguar {
   margin: 40px;
   padding: 40px;
   border: 5px solid #4e0649;
   width: 500px;
-  height: 800px;
+  height: 900px;
   display: flex;
   flex-direction: column-reverse;
+  line-height: 1.5;
 }
-.eer4{
+.qaq {
   display: flex;
   justify-content: center;
   align-items: center;
-  margin: 20px auto;
-  border: 5px solid linear-gradient(brown,gold,rgb(255, 255, 255));;
 }
-.eer4 p{
+.ChevroletCorvette {
+  margin: 40px;
+  padding: 40px;
+  border: 5px solid #4e0649;
+  width: 500px;
+  height: 750px;
+  display: flex;
+  flex-direction: column;
+  line-height: 1.5;
+}
+.AstonMartin {
+  margin: 40px;
+  padding: 40px;
+  border: 5px solid #4e0649;
+  width: 500px;
+  height: 750px;
+  display: flex;
+  flex-direction: column-reverse;
+  line-height: 1.5;
+}
+.eer4 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+}
+.eer4 p {
   font-size: 40px;
   font-family: cursive;
 }
