@@ -51,7 +51,7 @@ header ul li a {
   border-radius: 20px;
 }
 
-header ul li a:hover{
+header ul li a:hover {
   font-family: Georgia, "Times New Roman", Times, serif Script MT;
   background: rgb(0, 0, 0);
   color: red;
@@ -318,7 +318,6 @@ footer {
     transform: translateY(50px);
   }
 }
-
 
 .qmq {
   display: flex;
