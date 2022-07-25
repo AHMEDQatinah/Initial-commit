@@ -347,7 +347,7 @@ footer {
   width: 550px;
   height: 900px;
   display: flex;
-  flex-direction: column;
+  flex-direction: column-reverse;
   line-height: 1.5;
 }
 .Porsche {
@@ -382,6 +382,6 @@ footer {
   width: 550px;
   height: 900px;
   display: flex;
-  flex-direction: column-reverse;
+  flex-direction: column;
   line-height: 1.5;
 }

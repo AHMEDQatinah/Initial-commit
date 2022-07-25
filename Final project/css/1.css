@@ -159,7 +159,7 @@ footer {
   list-style: none;
 }
 .img1 {
-  width: 500px;
+  width: 550px;
   height: 300px;
   display: block;
   margin: 20px auto;
@@ -337,7 +337,7 @@ footer {
   margin: 40px;
   padding: 40px;
   border: 5px solid #4e0649;
-  width: 500px;
+  width: 550px;
   height: 900px;
   display: flex;
   flex-direction: column;
@@ -347,7 +347,7 @@ footer {
   margin: 40px;
   padding: 40px;
   border: 5px solid #4e0649;
-  width: 500px;
+  width: 550px;
   height: 900px;
   display: flex;
   flex-direction: column-reverse;
@@ -362,7 +362,7 @@ footer {
   margin: 40px;
   padding: 40px;
   border: 5px solid #4e0649;
-  width: 500px;
+  width: 550px;
   height: 750px;
   display: flex;
   flex-direction: column-reverse;
@@ -372,7 +372,7 @@ footer {
   margin: 40px;
   padding: 40px;
   border: 5px solid #4e0649;
-  width: 500px;
+  width: 550px;
   height: 750px;
   display: flex;
   flex-direction: column;
