@@ -166,19 +166,16 @@ footer {
   padding: 5px;
 }
 .load {
-  
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 20px;
+  height: 60px;
 }
 .load div {
   width: 20px;
   height: 20px;
   background: linear-gradient(brown, gold);
   margin: 9px;
-  margin-top: 400px;
-  margin-bottom: 350px;
   border-radius: 50%;
   animation-name: up-down;
   animation-duration: 0.5s;
@@ -318,7 +315,7 @@ footer {
   }
   to {
     opacity: 0.5;
-    transform: translateY(-50px);
+    transform: translateY(50px);
   }
 }
 .q{
