@@ -150,6 +150,8 @@ footer {
   transform: scale(1.1);
 }
 #l1 {
+  margin:20px auto;
+  width: 110px;
   color: rgb(68, 16, 16);
   font-family: monospace Script MT;
   font-size: 30px;
@@ -330,18 +332,18 @@ footer {
   margin: 40px;
   padding: 40px;
   border: 5px solid #4e0649;
-  width: 500px;
+  width: 550px;
   height: 900px;
   display: flex;
   flex-direction: column;
   line-height: 1.5;
 }
-.Jaguar {
+.Porsche {
   margin: 40px;
   padding: 40px;
   border: 5px solid #4e0649;
-  width: 500px;
-  height: 900px;
+  width: 550px;
+  height: 1100px;
   display: flex;
   flex-direction: column-reverse;
   line-height: 1.5;
@@ -351,33 +353,23 @@ footer {
   justify-content: center;
   align-items: center;
 }
-.ChevroletCorvette {
+.Fast {
   margin: 40px;
   padding: 40px;
   border: 5px solid #4e0649;
-  width: 500px;
-  height: 750px;
+  width: 550px;
+  height: 1100px;
   display: flex;
   flex-direction: column;
-  line-height: 1.5;
+  line-height: 1.8;
 }
-.AstonMartin {
+.Jaguar {
   margin: 40px;
   padding: 40px;
   border: 5px solid #4e0649;
-  width: 500px;
-  height: 750px;
+  width: 550px;
+  height: 900px;
   display: flex;
   flex-direction: column-reverse;
   line-height: 1.5;
-}
-.eer4 {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  margin: auto;
-}
-.eer4 p {
-  font-size: 40px;
-  font-family: cursive;
 }

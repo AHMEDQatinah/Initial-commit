@@ -38,11 +38,12 @@ function changeImages2() {
 changeImages2();
 
 var images3 = [
-  "img/Aston Martin DB5/2.jfif",
-  "img/Aston Martin DB5/3.jfif",
-  "img/Aston Martin DB5/4.jfif",
-  "img/Aston Martin DB5/5.jfif",
-  "img/Aston Martin DB5/6.jfif",
+  "img/Porsche-550-Spyder-with-Gold-Plated-Engine/1.jfif",
+  "img/Porsche-550-Spyder-with-Gold-Plated-Engine/2.jfif",
+  "img/Porsche-550-Spyder-with-Gold-Plated-Engine/3.jfif",
+  "img/Porsche-550-Spyder-with-Gold-Plated-Engine/4.jfif",
+  "img/Porsche-550-Spyder-with-Gold-Plated-Engine/5.jfif",
+  "img/Porsche-550-Spyder-with-Gold-Plated-Engine/6.jfif",
 ];
 
 var index = 0;
@@ -59,12 +60,12 @@ function changeImages3() {
 changeImages3();
 
 var images4 = [
-  "img/1953 Chevrolet Corvette/1.jfif",
-  "img/1953 Chevrolet Corvette/2.jfif",
-  "img/1953 Chevrolet Corvette/3.jfif",
-  "img/1953 Chevrolet Corvette/4.jfif",
-  "img/1953 Chevrolet Corvette/5.jpg",
-  "img/1953 Chevrolet Corvette/6.jfif",
+  "img/Fast And Furious Dodge Ice Charger/1.jfif",
+  "img/Fast And Furious Dodge Ice Charger/2.jfif",
+  "img/Fast And Furious Dodge Ice Charger/3.jfif",
+  "img/Fast And Furious Dodge Ice Charger/4.jfif",
+  "img/Fast And Furious Dodge Ice Charger/5.jfif",
+  "img/Fast And Furious Dodge Ice Charger/6.jfif",
 ];
 var index = 0;
 function changeImages4() {
