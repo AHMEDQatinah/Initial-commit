@@ -318,7 +318,16 @@ footer {
     transform: translateY(50px);
   }
 }
-
+.eer4 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+}
+.eer4 p {
+  font-size: 40px;
+  font-family: cursive;
+}
 .qmq {
   display: flex;
   justify-content: center;
@@ -356,7 +365,7 @@ footer {
   width: 500px;
   height: 750px;
   display: flex;
-  flex-direction: column;
+  flex-direction: column-reverse;
   line-height: 1.5;
 }
 .AstonMartin {
@@ -366,16 +375,32 @@ footer {
   width: 500px;
   height: 750px;
   display: flex;
-  flex-direction: column-reverse;
+  flex-direction: column;
   line-height: 1.5;
 }
-.eer4 {
+
+.qwq {
   display: flex;
   justify-content: center;
   align-items: center;
-  margin: auto;
 }
-.eer4 p {
-  font-size: 40px;
-  font-family: cursive;
+.BMW {
+  margin: 40px;
+  padding: 40px;
+  border: 5px solid #4e0649;
+  width: 550px;
+  height: 950px;
+  display: flex;
+  flex-direction: column;
+  line-height: 1.8;
+}
+.Rolls-Royce {
+  margin: 40px;
+  padding: 40px;
+  border: 5px solid #4e0649;
+  width: 550px;
+  height: 950px;
+  display: flex;
+  flex-direction: column-reverse;
+  line-height: 1.5;
 }

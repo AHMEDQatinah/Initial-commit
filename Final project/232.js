@@ -77,3 +77,23 @@ function changeImages4() {
   setTimeout("changeImages4()", 1200);
 }
 changeImages4();
+
+
+var images5 = [
+  "img/1956 BMW 507/2.jfif",
+  "img/1956 BMW 507/3.jfif",
+  "img/1956 BMW 507/4.jfif",
+  "img/1956 BMW 507/5.jfif",
+  "img/1956 BMW 507/6.jfif",
+];
+var index = 0;
+function changeImages5() {
+  imageSlideShow5.src = images5[index];
+  if (index < images5.length - 1) {
+    index++;
+  } else {
+    index = 0;
+  }
+  setTimeout("changeImages5()", 1200);
+}
+changeImages5();
