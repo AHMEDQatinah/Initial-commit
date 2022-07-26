@@ -82,7 +82,9 @@ header ul li a:hover {
   width: 90%;
   height: 80vh;
 }
-
+.content div{
+  border-radius: 20px;
+}
 .content {
   color: rgb(68, 16, 16);
   padding: 30px;
@@ -192,6 +194,7 @@ footer {
   display: block;
   margin: 20px auto;
   padding: 5px;
+  border-radius: 20px;
 }
 .load {
   display: flex;
@@ -363,14 +366,14 @@ footer {
   flex-direction: column-reverse;
   line-height: 1.5;
 }
-.Porsche {
+.Jaguar {
   margin: 40px;
   padding: 40px;
   border: 5px solid #4e0649;
   width: 550px;
-  height: 1100px;
+  height: 900px;
   display: flex;
-  flex-direction: column-reverse;
+  flex-direction: column;
   line-height: 1.5;
 }
 .qaq {
@@ -388,13 +391,13 @@ footer {
   flex-direction: column;
   line-height: 1.8;
 }
-.Jaguar {
+.Porsche {
   margin: 40px;
   padding: 40px;
   border: 5px solid #4e0649;
   width: 550px;
-  height: 900px;
+  height: 1100px;
   display: flex;
-  flex-direction: column;
+  flex-direction: column-reverse;
   line-height: 1.5;
 }
