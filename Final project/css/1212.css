@@ -11,6 +11,7 @@ body {
 a {
   text-decoration: none;
   color: gold;
+  text-transform: uppercase;
 }
 
 header {
@@ -22,6 +23,7 @@ header {
   justify-content: space-between;
   align-items: center;
   margin: 30px;
+  text-transform: uppercase;
 }
 
 header .logo {
@@ -37,11 +39,13 @@ header ul {
   justify-content: center;
   align-items: center;
   list-style: none;
+  text-transform: uppercase;
 }
 
 header ul li {
   color: gold;
   margin-right: 30px;
+  text-transform: uppercase;
 }
 
 header ul li a {
@@ -49,12 +53,14 @@ header ul li a {
   font-family: Georgia, "Times New Roman", Times, serif Script MT;
   padding: 6px 15px;
   border-radius: 20px;
+  text-transform: uppercase;
 }
 
 header ul li a:hover {
   font-family: Georgia, "Times New Roman", Times, serif Script MT;
   background: rgb(0, 0, 0);
   color: red;
+  text-transform: uppercase;
 }
 
 .main {
@@ -99,8 +105,7 @@ p {
   line-height: 2;
 }
 .footer-bottom {
-  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
-    "Lucida Sans", Arial, sans-serif;
+  font-family: cursive;
   font-size: xx-small;
   text-align: center;
   color: #ffff;
@@ -117,14 +122,12 @@ p {
   align-items: center;
 }
 footer {
-  background-image: url(img/bg-section1.jpg);
   padding: 20px;
   width: 97.5%;
   margin-top: 20px;
 }
 
 .footer-content {
-  margin: auto;
   width: 97.5%;
   height: auto;
   font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
@@ -133,26 +136,14 @@ footer {
   text-align: center;
   color: #ffff;
   letter-spacing: 4px;
-  /* line-height: 30px; */
+  line-height: 30px;
 }
 #link {
   color: #ffff;
-  justify-content: center;
-  align-items: center;
-  font-size: 40px;
-  letter-spacing: 5px;
-  cursor: pointer;
-  transition: 0.5s;
+  text-decoration: rgb(246, 255, 0) underline;
   font-family: cursive;
-  width: 100%;
+  font-size: 25px;
 }
-
-#link:hover  {
-  margin-right: 10px;
-  color: red;
-  text-shadow: 0 0 10px gold, 0 0 30px, 0 0 50px, 0 0 70px, 0 0 90px;
-}
-
 .socials a {
   display: inline-block;
   font-size: 2.5em;
@@ -165,9 +156,9 @@ footer {
   transform: scale(1.1);
 }
 #l1 {
-  margin: 30px auto;
+  margin:20px auto;
   width: 260px;
-  color: rgb(74, 10, 10);
+  color: rgb(48, 0, 0);
   font-family: monospace Script MT;
   font-size: 30px;
   text-transform: uppercase;
@@ -177,9 +168,9 @@ footer {
   list-style: none;
 }
 #l2 {
-  margin: 30px auto;
+  margin:20px auto;
   width: 290px;
-  color: rgb(74, 10, 10);
+  color: rgb(48, 0, 0);
   font-family: monospace Script MT;
   font-size: 30px;
   text-transform: uppercase;
@@ -189,9 +180,9 @@ footer {
   list-style: none;
 }
 #l3 {
-  margin: 30px auto;
+  margin:20px auto;
   width: 330px;
-  color: rgb(74, 10, 10);
+  color: rgb(48, 0, 0);
   font-family: monospace Script MT;
   font-size: 30px;
   text-transform: uppercase;
@@ -216,7 +207,7 @@ footer {
 .load div {
   width: 20px;
   height: 20px;
-  background: linear-gradient(rgb(63, 63, 63), rgb(63, 63, 63));
+  background: linear-gradient(brown, gold);
   margin: 9px;
   margin-bottom: 45px;
   border-radius: 50%;
@@ -412,4 +403,3 @@ footer {
   flex-direction: column;
   line-height: 1.5;
 }
-
