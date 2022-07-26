@@ -151,7 +151,7 @@ footer {
 #l1 {
   margin: 20px auto;
   width: auto;
-  color: rgb(0, 106, 255);
+  color: rgb(48, 0, 0);
   font-family: monospace Script MT;
   font-size: 30px;
   text-transform: uppercase;
@@ -163,7 +163,19 @@ footer {
 #l2 {
   margin: 20px auto;
   width: auto;
-  color: rgb(0, 106, 255);
+  color: rgb(48, 0, 0);
+  font-family: monospace Script MT;
+  font-size: 30px;
+  text-transform: uppercase;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  list-style: none;
+}
+#l3 {
+  margin:20px auto;
+  width: 330px;
+  color: rgb(48, 0, 0);
   font-family: monospace Script MT;
   font-size: 30px;
   text-transform: uppercase;

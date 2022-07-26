@@ -11,7 +11,6 @@ body {
 a {
   text-decoration: none;
   color: gold;
-  text-transform: uppercase;
 }
 
 header {
@@ -23,7 +22,7 @@ header {
   justify-content: space-between;
   align-items: center;
   margin: 30px;
-  text-transform: uppercase;
+  letter-spacing: 2px;
 }
 
 header .logo {
@@ -39,13 +38,11 @@ header ul {
   justify-content: center;
   align-items: center;
   list-style: none;
-  text-transform: uppercase;
 }
 
 header ul li {
   color: gold;
   margin-right: 30px;
-  text-transform: uppercase;
 }
 
 header ul li a {
@@ -53,14 +50,12 @@ header ul li a {
   font-family: Georgia, "Times New Roman", Times, serif Script MT;
   padding: 6px 15px;
   border-radius: 20px;
-  text-transform: uppercase;
 }
 
 header ul li a:hover {
   font-family: Georgia, "Times New Roman", Times, serif Script MT;
   background: rgb(0, 0, 0);
   color: red;
-  text-transform: uppercase;
 }
 
 .main {
