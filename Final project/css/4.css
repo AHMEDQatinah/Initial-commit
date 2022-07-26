@@ -81,7 +81,9 @@ header ul li a:hover {
   width: 105%;
   height: 100vh;
 }
-
+.content div {
+  border-radius: 20px;
+}
 .content {
   color: rgb(68, 16, 16);
   padding: 30px;
@@ -99,8 +101,7 @@ p {
   line-height: 2;
 }
 .footer-bottom {
-  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
-    "Lucida Sans", Arial, sans-serif;
+  font-family: cursive;
   font-size: xx-small;
   text-align: center;
   color: #ffff;
@@ -117,7 +118,6 @@ p {
   align-items: center;
 }
 footer {
-  background: #4e0649;
   padding: 20px;
   width: 97.5%;
   margin-top: 20px;
@@ -137,6 +137,8 @@ footer {
 #link {
   color: #ffff;
   text-decoration: rgb(246, 255, 0) underline;
+  font-family: cursive;
+  font-size: 25px;
 }
 .socials a {
   display: inline-block;
@@ -152,7 +154,7 @@ footer {
 #l1 {
   margin: 20px auto;
   width: auto;
-  color: rgb(0, 106, 255);
+  color: rgb(48, 0, 0);
   font-family: monospace Script MT;
   font-size: 30px;
   text-transform: uppercase;
@@ -164,7 +166,19 @@ footer {
 #l2 {
   margin: 20px auto;
   width: auto;
-  color: rgb(0, 106, 255);
+  color: rgb(48, 0, 0);
+  font-family: monospace Script MT;
+  font-size: 30px;
+  text-transform: uppercase;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  list-style: none;
+}
+#l3 {
+  margin: 20px auto;
+  width: 330px;
+  color: rgb(48, 0, 0);
   font-family: monospace Script MT;
   font-size: 30px;
   text-transform: uppercase;
@@ -179,6 +193,7 @@ footer {
   display: block;
   margin: 20px auto;
   padding: 5px;
+  border-radius: 20px;
 }
 .load {
   display: flex;
@@ -333,13 +348,12 @@ footer {
     transform: translateY(50px);
   }
 }
-.Canada{
-  background-color: gray;
-  color: #ffff;
+.Canada {
+  color: rgb(0, 0, 0);
   margin: 40px auto;
   padding: 40px;
   border: 5px solid #4e0649;
-  width: 1300px;
+  width: 1360px;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -352,9 +366,8 @@ footer {
   justify-content: center;
   align-items: center;
 }
-.United{
-  background-color: saddlebrown;
-  color: #ffff;
+.United {
+  color: rgb(0, 0, 0);
   margin: 40px auto;
   padding: 40px;
   border: 5px solid #4e0649;
@@ -366,9 +379,8 @@ footer {
   flex-direction: column;
   line-height: 1.8;
 }
-.America{
-  background-color: saddlebrown;
-  color: #ffff;
+.America {
+  color: rgb(0, 0, 0);
   margin: 40px auto;
   padding: 40px;
   border: 5px solid #4e0649;
@@ -381,26 +393,24 @@ footer {
   line-height: 1.8;
 }
 
-.Antique{
-  background-color: gray;
-  color: #ffff;
+.Antique {
+  color: rgb(0, 0, 0);
   margin: 40px auto;
   padding: 40px;
   border: 5px solid #4e0649;
-  width: 1300px;
+  width: 1360px;
   display: flex;
   justify-content: center;
   align-items: center;
   flex-direction: column;
   line-height: 1.5;
 }
-.Renting{
-  background-color: gray;
-  color: #ffff;
+.Renting {
+  color: rgb(0, 0, 0);
   margin: 40px auto;
   padding: 40px;
   border: 5px solid #4e0649;
-  width: 1300px;
+  width: 1360px;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -413,9 +423,8 @@ footer {
   justify-content: center;
   align-items: center;
 }
-.Classic{
-  background-color: saddlebrown;
-  color: #ffff;
+.Classic {
+  color: rgb(0, 0, 0);
   margin: 40px auto;
   padding: 40px;
   border: 5px solid #4e0649;
@@ -427,9 +436,8 @@ footer {
   flex-direction: column;
   line-height: 1.8;
 }
-.UnitedKingdom{
-  background-color: saddlebrown;
-  color: #ffff;
+.UnitedKingdom {
+  color: rgb(0, 0, 0);
   margin: 40px auto;
   padding: 40px;
   border: 5px solid #4e0649;
@@ -442,13 +450,12 @@ footer {
   line-height: 1.5;
 }
 
-.Safety{
-  background-color: gray;
-  color: #ffff;
+.Safety {
+  color: rgb(0, 0, 0);
   margin: 40px auto;
   padding: 40px;
   border: 5px solid #4e0649;
-  width: 1300px;
+  width: 1360px;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -460,9 +467,8 @@ footer {
   justify-content: center;
   align-items: center;
 }
-.Modern{
-  background-color: saddlebrown;
-  color: #ffff;
+.Modern {
+  color: rgb(0, 0, 0);
   margin: 40px auto;
   padding: 40px;
   border: 5px solid #4e0649;
@@ -474,9 +480,8 @@ footer {
   flex-direction: column;
   line-height: 1.8;
 }
-.Fraud{
-  background-color: saddlebrown;
-  color: #ffff;
+.Fraud {
+  color: rgb(0, 0, 0);
   margin: 40px auto;
   padding: 40px;
   border: 5px solid #4e0649;
@@ -489,30 +494,28 @@ footer {
   line-height: 1.5;
 }
 
-#float{
+#float {
   float: left;
   padding-right: 20px;
 }
-.Emissionlevels{
-  background-color: gray;
-  color: #ffff;
+.Emissionlevels {
+  color: rgb(0, 0, 0);
   margin: 40px auto;
   padding: 40px;
   border: 5px solid #4e0649;
-  width: 1300px;
+  width: 1360px;
   display: flex;
   justify-content: center;
   align-items: center;
   flex-direction: column;
   line-height: 1.5;
 }
-.Marketvalues{
-  background-color: gray;
-  color: #ffff;
+.Marketvalues {
+  color: rgb(0, 0, 0);
   margin: 40px auto;
   padding: 40px;
   border: 5px solid #4e0649;
-  width: 1300px;
+  width: 1360px;
   display: flex;
   justify-content: center;
   align-items: center;

@@ -57,6 +57,7 @@ header ul li a:hover {
   color: red;
 }
 
+
 .main {
   position: relative;
   height: 100vh;
@@ -85,7 +86,9 @@ header ul li a:hover {
   color: rgb(68, 16, 16);
   padding: 30px;
 }
-
+.content div{
+  border-radius: 20px;
+}
 .content h2 {
   margin: 20px;
   font-size: 30px;
@@ -98,8 +101,7 @@ p {
   line-height: 2;
 }
 .footer-bottom {
-  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
-    "Lucida Sans", Arial, sans-serif;
+  font-family: cursive;
   font-size: xx-small;
   text-align: center;
   color: #ffff;
@@ -116,7 +118,6 @@ p {
   align-items: center;
 }
 footer {
-  background: #4e0649;
   padding: 20px;
   width: 97.5%;
   margin-top: 20px;
@@ -136,6 +137,8 @@ footer {
 #link {
   color: #ffff;
   text-decoration: rgb(246, 255, 0) underline;
+  font-family: cursive;
+  font-size: 25px;
 }
 .socials a {
   display: inline-block;
@@ -148,10 +151,20 @@ footer {
   color: #441010;
   transform: scale(1.1);
 }
+.dddddd{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: linear-gradient(#3a3a3a, #ffffff);
+  border: #3a3a3a;
+  height: 100px;
+  width: 100vh;
+}
+
 #l1 {
   margin: 20px auto;
-  width: auto;
-  color: rgb(48, 0, 0);
+  width: 70px;
+  color: rgb(154, 0, 0);
   font-family: monospace Script MT;
   font-size: 30px;
   text-transform: uppercase;
@@ -159,11 +172,12 @@ footer {
   justify-content: center;
   align-items: center;
   list-style: none;
+  border-radius: 20px;
 }
 #l2 {
   margin: 20px auto;
   width: auto;
-  color: rgb(48, 0, 0);
+  color: rgb(154, 0, 0);
   font-family: monospace Script MT;
   font-size: 30px;
   text-transform: uppercase;
@@ -171,11 +185,12 @@ footer {
   justify-content: center;
   align-items: center;
   list-style: none;
+  border-radius: 20px;
 }
 #l3 {
   margin:20px auto;
   width: 330px;
-  color: rgb(48, 0, 0);
+  color: rgb(154, 0, 0);
   font-family: monospace Script MT;
   font-size: 30px;
   text-transform: uppercase;
@@ -183,6 +198,11 @@ footer {
   justify-content: center;
   align-items: center;
   list-style: none;
+  border-radius: 150px;
+}
+.dddddd a:hover {
+  background: rgb(0, 0, 0);
+  color: rgb(154, 0, 0);
 }
 .img1 {
   width: 550px;
@@ -190,6 +210,8 @@ footer {
   display: block;
   margin: 20px auto;
   padding: 5px;
+  border-radius: 20px;
+  border:1px dotted #363636;
 }
 .load {
   display: flex;
@@ -388,7 +410,7 @@ span
 .Mercedes {
   margin: 40px;
   padding: 40px;
-  border: 5px solid #4e0649;
+  border: 3px solid #4e0649;
   width: 550px;
   height: 900px;
   display: flex;
@@ -398,7 +420,7 @@ span
 .Jaguar {
   margin: 40px;
   padding: 40px;
-  border: 5px solid #4e0649;
+  border: 3px solid #4e0649;
   width: 550px;
   height: 900px;
   display: flex;
@@ -413,7 +435,7 @@ span
 .ChevroletCorvette {
   margin: 40px;
   padding: 40px;
-  border: 5px solid #4e0649;
+  border: 3px solid #4e0649;
   width: 550px;
   height: 750px;
   display: flex;
@@ -423,7 +445,7 @@ span
 .AstonMartin {
   margin: 40px;
   padding: 40px;
-  border: 5px solid #4e0649;
+  border: 3px solid #4e0649;
   width: 550px;
   height: 750px;
   display: flex;
@@ -439,7 +461,7 @@ span
 .BMW {
   margin: 40px;
   padding: 40px;
-  border: 5px solid #4e0649;
+  border: 3px solid #4e0649;
   width: 550px;
   height: 950px;
   display: flex;
@@ -449,7 +471,7 @@ span
 .Rolls-Royce {
   margin: 40px;
   padding: 40px;
-  border: 5px solid #4e0649;
+  border: 3px solid #4e0649;
   width: 550px;
   height: 950px;
   display: flex;
@@ -464,7 +486,7 @@ span
 .Ford {
   margin: 40px;
   padding: 40px;
-  border: 5px solid #4e0649;
+  border: 3px solid #4e0649;
   width: 550px;
   height: 900px;
   display: flex;
@@ -474,7 +496,7 @@ span
 .Toyota {
   margin: 40px;
   padding: 40px;
-  border: 5px solid #4e0649;
+  border: 3px solid #4e0649;
   width: 550px;
   height: 900px;
   display: flex;
@@ -489,7 +511,7 @@ span
 .Dodge {
   margin: 40px;
   padding: 40px;
-  border: 5px solid #4e0649;
+  border: 3px solid #4e0649;
   width: 550px;
   height: 740px;
   display: flex;
@@ -499,7 +521,7 @@ span
 .Bugatti {
   margin: 40px;
   padding: 40px;
-  border: 5px solid #4e0649;
+  border: 3px solid #4e0649;
   width: 550px;
   height: 740px;
   display: flex;
