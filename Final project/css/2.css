@@ -22,6 +22,7 @@ header {
   justify-content: space-between;
   align-items: center;
   margin: 30px;
+  letter-spacing: 2px;
 }
 
 header .logo {
@@ -29,19 +30,23 @@ header .logo {
   font-family: Georgia, "Times New Roman", Times, serif Script MT;
   font-size: 30px;
   text-transform: uppercase;
+  padding: 6px 15px;
+  border-radius: 20px;
 }
 
-header ul {
+header .menu-bar  {
   color: gold;
   display: flex;
   justify-content: center;
   align-items: center;
   list-style: none;
+  padding: 6px 15px;
 }
 
-header ul li {
+header .menu-bar  li {
   color: gold;
   margin-right: 30px;
+  padding: 6px 15px;
 }
 
 header ul li a {
@@ -50,12 +55,38 @@ header ul li a {
   padding: 6px 15px;
   border-radius: 20px;
 }
-
-header ul li a:hover {
-  font-family: Georgia, "Times New Roman", Times, serif Script MT;
-  background: rgb(0, 0, 0);
-  color: red;
+.sub-menu-1{
+  display: none;
 }
+
+header .menu-bar li:hover .sub-menu-1{
+  display: block;
+  position: absolute;
+  background: rgb(36, 36, 36);
+  color: rgb(255, 111, 0);
+  margin-top: 10px;
+  margin-left: -15px;
+}
+header ul li a:hover ,.sub-menu-1 ul{
+  display: block;
+}
+header ul li a:hover ,.sub-menu-1 ul li{
+  background-color: transparent;
+  border-bottom: 1px solid white;
+}
+header ul li a:hover ,.sub-menu-1 ul li:last-child{
+  border-bottom: none;
+}
+header ul li a:hover ,.sub-menu-1 ul li:first-child{
+  border-top: 2px dotted white;
+}
+header ul li a:hover{
+  font-family: Georgia, "Times New Roman", Times, serif Script MT;
+  background: gold;
+  color: rgb(49, 49, 49);
+  padding: 6px 15px;
+}
+
 
 .main {
   position: relative;
@@ -137,48 +168,19 @@ footer {
   font-family: cursive;
   font-size: 25px;
 }
-#l1 {
-  margin: 20px auto;
-  width: auto;
-  color: rgb(48, 0, 0);
-  font-family: monospace Script MT;
-  font-size: 30px;
-  text-transform: uppercase;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  list-style: none;
-}
-#l2 {
-  margin: 20px auto;
-  width: auto;
-  color: rgb(48, 0, 0);
-  font-family: monospace Script MT;
-  font-size: 30px;
-  text-transform: uppercase;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  list-style: none;
-}
-#l3 {
-  margin:20px auto;
-  width: 330px;
-  color: rgb(48, 0, 0);
-  font-family: monospace Script MT;
-  font-size: 30px;
-  text-transform: uppercase;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  list-style: none;
-}
+
 .img1 {
-  width: 550px;
+  width: 500px;
   height: 300px;
   display: block;
   margin: 20px auto;
   padding: 5px;
+  border-radius: 20px;
+  transition-duration: 1s;
+}
+.img1:hover{
+  transform: rotate(360deg) scale(1.2);
+  border: 2px double black;
 }
 .load {
   display: flex;
@@ -342,4 +344,40 @@ footer {
 .eer4 p {
   font-size: 40px;
   font-family: cursive;
+}
+.wwqqq h2 ,
+span
+{
+  font-family: cursive;
+}
+.wwqqq {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 40px;
+  font-weight: 500;
+  color: #222;
+  letter-spacing: 5px;
+  cursor: pointer;
+}
+
+.wwqqq:hover span:nth-child(1) {
+  margin-right: 10px;
+}
+
+.wwqqq span {
+  transition: 0.5s;
+}
+
+.wwqqq:hover span:nth-child(2) {
+  margin-left: 10px;
+}
+
+.wwqqq:hover span{
+  color: red;
+  text-shadow: 0 0 10px gold,
+  0 0 30px,
+  0 0 50px,
+  0 0 70px,
+  0 0 90px;
 }

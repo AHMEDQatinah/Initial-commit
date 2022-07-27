@@ -6,7 +6,7 @@
 }
 
 body {
-  background: linear-gradient(#6b4e4e, #3b1212);
+  background-color: #363636;
   font-family: Bahnschrift;
   height: 100vh;
   margin: 20px;
@@ -15,50 +15,51 @@ body {
 
 a {
   text-decoration: none;
-  color: rgb(255, 255, 255);
+  color: rgb(0, 47, 255);
 }
 
 header {
+  color: rgb(0, 47, 255);
+  position: absolute;
+  width: 95%;
+  z-index: 100;
   display: flex;
   justify-content: space-between;
   align-items: center;
   margin: 30px;
 }
 
-header h2 {
-  float: left;
-}
-
 header .logo {
-  font-family: Brush Script MT;
+  color: rgb(0, 47, 255);
+  font-family: Georgia, "Times New Roman", Times, serif Script MT;
   font-size: 30px;
   text-transform: uppercase;
 }
 
 header ul {
+  color: rgb(0, 47, 255);
   display: flex;
   justify-content: center;
   align-items: center;
   list-style: none;
-  float: right;
 }
 
 header ul li {
+  color: rgb(0, 47, 255);
   margin-right: 30px;
-  margin-top: 20px;
 }
 
 header ul li a {
+  color: rgb(0, 47, 255);
+  font-family: Georgia, "Times New Roman", Times, serif Script MT;
   padding: 6px 15px;
   border-radius: 20px;
-  font-family: Brush Script MT;
 }
 
-header ul li a:hover,
-.active {
-  background: #ffffff;
-  font-family: Brush Script MT;
-  color: #200016;
+header ul li a:hover {
+  font-family: Georgia, "Times New Roman", Times, serif Script MT;
+  background: rgb(0, 0, 0);
+  color: red;
 }
 
 html,
@@ -4220,9 +4221,7 @@ body.is-preload #banner p {
 
 @media screen and (max-width: 1280px) {
   #footer {
-    background: linear-gradient(#200016, #10001f);
-    background-image: linear-gradient(to top, rgb(16, 0, 31), rgb(31, 0, 21)),
-      url("../../images/bg.jpg");
+    background-color: #363636;
     background-size: auto, cover;
     background-position: center, center;
     margin-top: -6.5em;
@@ -4295,11 +4294,10 @@ body.is-preload #banner p {
   }
 }
 .footer-bottom {
-  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
-    "Lucida Sans", Arial, sans-serif;
+  font-family: cursive;
   font-size: xx-small;
   text-align: center;
-  color: #fff;
+  color: #ffff;
   letter-spacing: 4px;
   opacity: 50%;
   margin-bottom: 20px;
@@ -4313,30 +4311,27 @@ body.is-preload #banner p {
   align-items: center;
 }
 footer {
-  background: #610000;
   padding: 20px;
-  width: 100%;
+  width: 97.5%;
   margin-top: 20px;
 }
 
 .footer-content {
-  width: 100%;
+  width: 97.5%;
   height: auto;
   font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
     "Lucida Sans", Arial, sans-serif;
   font-size: small;
   text-align: center;
-  color: #fff;
+  color: #ffff;
   letter-spacing: 4px;
   line-height: 30px;
 }
 #link {
-  color: rgb(255, 255, 255);
-  text-decoration: rgb(0, 0, 0) underline;
-}
-#link :hover {
-  color: #fff;
-  text-decoration: rgb(255, 0, 0) underline;
+  color: #ffff;
+  text-decoration: rgb(246, 255, 0) underline;
+  font-family: cursive;
+  font-size: 25px;
 }
 .socials a {
   display: inline-block;

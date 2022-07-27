@@ -188,12 +188,17 @@ footer {
   list-style: none;
 }
 .img1 {
-  width: 400px;
-  height: 270px;
+  width: 500px;
+  height: 300px;
   display: block;
   margin: 20px auto;
   padding: 5px;
   border-radius: 20px;
+  transition-duration: 1s;
+}
+.img1:hover{
+  transform: rotate(360deg) scale(1.2);
+  border: 2px double black;
 }
 .load {
   display: flex;
@@ -460,6 +465,7 @@ footer {
   justify-content: center;
   align-items: center;
   flex-direction: column;
+  border-radius: 20px;
   line-height: 1.5;
 }
 .wwaa {
