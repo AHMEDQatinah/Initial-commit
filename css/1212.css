@@ -34,7 +34,7 @@ header .logo {
   border-radius: 20px;
 }
 
-header .menu-bar  {
+header .menu-bar {
   color: gold;
   display: flex;
   justify-content: center;
@@ -43,7 +43,7 @@ header .menu-bar  {
   padding: 6px 15px;
 }
 
-header .menu-bar  li {
+header .menu-bar li {
   color: gold;
   margin-right: 30px;
   padding: 6px 15px;
@@ -55,11 +55,11 @@ header ul li a {
   padding: 6px 15px;
   border-radius: 20px;
 }
-.sub-menu-1{
+.sub-menu-1 {
   display: none;
 }
 
-header .menu-bar li:hover .sub-menu-1{
+header .menu-bar li:hover .sub-menu-1 {
   display: block;
   position: absolute;
   background: rgb(36, 36, 36);
@@ -67,20 +67,24 @@ header .menu-bar li:hover .sub-menu-1{
   margin-top: 10px;
   margin-left: -15px;
 }
-header ul li a:hover ,.sub-menu-1 ul{
+header ul li a:hover,
+.sub-menu-1 ul {
   display: block;
 }
-header ul li a:hover ,.sub-menu-1 ul li{
+header ul li a:hover,
+.sub-menu-1 ul li {
   background-color: transparent;
   border-bottom: 1px solid white;
 }
-header ul li a:hover ,.sub-menu-1 ul li:last-child{
+header ul li a:hover,
+.sub-menu-1 ul li:last-child {
   border-bottom: none;
 }
-header ul li a:hover ,.sub-menu-1 ul li:first-child{
+header ul li a:hover,
+.sub-menu-1 ul li:first-child {
   border-top: 2px dotted white;
 }
-header ul li a:hover{
+header ul li a:hover {
   font-family: Georgia, "Times New Roman", Times, serif Script MT;
   background: gold;
   color: rgb(49, 49, 49);
@@ -111,7 +115,7 @@ header ul li a:hover{
   width: 90%;
   height: 80vh;
 }
-.content div{
+.content div {
   border-radius: 20px;
 }
 .content {
@@ -190,7 +194,7 @@ footer {
   border-radius: 20px;
   transition-duration: 1s;
 }
-.img1:hover{
+.img1:hover {
   transform: rotate(360deg) scale(1.2);
   border: 2px double black;
 }
@@ -355,40 +359,17 @@ footer {
   align-items: center;
 }
 .Mercedes {
-  margin: 40px;
-  padding: 40px;
-  border: 5px solid #4e0649;
-  width: 550px;
-  height: 900px;
-  display: flex;
-  flex-direction: column-reverse;
-  line-height: 1.5;
-}
-.Jaguar {
-  margin: 40px;
-  padding: 40px;
-  border: 5px solid #4e0649;
-  width: 550px;
-  height: 900px;
-  display: flex;
-  flex-direction: column;
-  line-height: 1.5;
-}
-.qaq {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-.Fast {
+  font-size: 17.5px;
   margin: 40px;
   padding: 40px;
   border: 5px solid #4e0649;
   width: 550px;
   height: 1100px;
   display: flex;
-  flex-direction: column;
+  flex-direction: column-reverse;
   line-height: 1.8;
 }
+
 .Porsche {
   margin: 40px;
   padding: 40px;
@@ -399,3 +380,163 @@ footer {
   flex-direction: column-reverse;
   line-height: 1.5;
 }
+
+.cont {
+  width: 100%;
+  height: 100vh;
+  margin-left: 20px;
+  display: flex;
+  align-items: center;
+}
+
+.gallery {
+  display: grid;
+  grid-template-columns: repeat(8, minmax(10px, 1fr));
+  grid-template-rows: repeat(4, 10vw);
+  grid-gap: 16px;
+  background-color: gray;
+  padding: 16px;
+}
+
+.img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  opacity: 0.7;
+  transition: opacity 0.5s;
+}
+
+.img:hover {
+  opacity: 1;
+}
+
+.img-1 {
+  grid-column: 1 / 3;
+  grid-row: 1 / 2;
+}
+
+.img-2 {
+  grid-column: 3 / 6;
+  grid-row: 1 / 3;
+}
+
+.img-3 {
+  grid-column: 6 / 7;
+  grid-row: 1 / 2;
+}
+
+.img-4 {
+  grid-column: 7 / 9;
+  grid-row: 1 / 3;
+}
+
+.img-5 {
+  grid-column: 1 / 3;
+  grid-row: 2 / 4;
+}
+
+.img-6 {
+  grid-column: 3 / 5;
+  grid-row: 3 / 4;
+}
+
+.img-7 {
+  grid-column: 6 / 7;
+  grid-row: 2 / 4;
+}
+
+.img-8 {
+  grid-column: 5 / 6;
+  grid-row: 3 / 5;
+}
+
+.img-9 {
+  grid-column: 1 / 3;
+  grid-row: 4 / 5;
+}
+
+.img-10 {
+  grid-column: 3 / 5;
+  grid-row: 4 / 5;
+}
+
+.img-11 {
+  grid-column: 6 / 7;
+  grid-row: 4 / 5;
+}
+
+.img-12 {
+  grid-column: 7 / 9;
+  grid-row: 3 / 5;
+}
+
+.section-3 {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  background-color: #222;
+}
+
+/* Common Section Styles */
+.wrapper {
+  width: 100%;
+  height: 100vh;
+  perspective: 50rem;
+  margin-bottom: 150px;
+  margin-top: 200px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+section {
+  width: 100%;
+  height: 100vh;
+  background-color: #efefef;
+  position: relative;
+  left: 0;
+  margin-bottom: 3rem;
+  transform-origin: left;
+  box-shadow: 0.5rem 0.5rem 1rem #aaa;
+  padding: 5rem 0;
+  transition: left 0.5s, transform 0.5s;
+}
+
+section.change {
+  left: 15vw;
+  transform: rotateY(20deg);
+}
+
+.section-heading {
+  font-size: 5rem;
+  font-weight: bolder;
+  color: #fff;
+  margin-bottom: 10rem;
+  letter-spacing: 1rem;
+  text-align: center;
+  text-shadow: 0.3rem 0.3rem 0.5rem #555;
+}
+/* End of Common Section Styles */
+
+/* Section 3 */
+.section-3 {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  background-color: #222;
+}
+
+.video {
+  width: 25%;
+  margin: 0 2rem;
+  border-radius: 0.5rem;
+  opacity: 0.8;
+  box-shadow: 0.3rem 0.3rem 0.5rem #111;
+  transition: all 0.5s;
+}
+
+.video:hover {
+  opacity: 1;
+  box-shadow: 0.5rem 0.5rem 1rem #111;
+}
+/* End of Section 3 */
