@@ -366,7 +366,7 @@ footer {
   width: 550px;
   height: 1100px;
   display: flex;
-  flex-direction: column-reverse;
+  flex-direction: column;
   line-height: 1.8;
 }
 
@@ -377,7 +377,7 @@ footer {
   width: 550px;
   height: 1100px;
   display: flex;
-  flex-direction: column-reverse;
+  flex-direction: column;
   line-height: 1.5;
 }
 
