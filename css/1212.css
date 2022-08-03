@@ -123,18 +123,17 @@ header ul li a:hover {
   padding: 30px;
 }
 
-.content h2 {
-  margin: 20px;
-  font-size: 30px;
-}
-
-.content p {
-  margin: 20px;
-}
-p {
-  line-height: 2;
-}
 .footer-bottom {
+  font-family: cursive;
+  font-size: xx-small;
+  text-align: center;
+  color: #ffff;
+  letter-spacing: 4px;
+  opacity: 50%;
+  margin-bottom: 20px;
+  text-transform: uppercase;
+}
+.footer-bottom2 {
   font-family: cursive;
   font-size: xx-small;
   text-align: center;
@@ -184,19 +183,6 @@ footer {
 .socials a:hover {
   color: #441010;
   transform: scale(1.1);
-}
-.img1 {
-  width: 500px;
-  height: 300px;
-  display: block;
-  margin: 20px auto;
-  padding: 5px;
-  border-radius: 20px;
-  transition-duration: 1s;
-}
-.img1:hover {
-  transform: rotate(360deg) scale(1.2);
-  border: 2px double black;
 }
 .load {
   display: flex;
@@ -353,40 +339,12 @@ footer {
   }
 }
 
-.qmq {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-.Mercedes {
-  font-size: 17.5px;
-  margin: 40px;
-  padding: 40px;
-  border: 5px solid #4e0649;
-  width: 550px;
-  height: 1100px;
-  display: flex;
-  flex-direction: column;
-  line-height: 1.8;
-}
-
-.Porsche {
-  margin: 40px;
-  padding: 40px;
-  border: 5px solid #4e0649;
-  width: 550px;
-  height: 1100px;
-  display: flex;
-  flex-direction: column;
-  line-height: 1.5;
-}
-
 .cont {
   width: 100%;
   height: 100vh;
-  margin-left: 20px;
   display: flex;
   align-items: center;
+  margin-bottom: 5rem;
 }
 
 .gallery {
@@ -485,6 +443,7 @@ footer {
   margin-bottom: 150px;
   margin-top: 200px;
   display: flex;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
 }
@@ -524,11 +483,13 @@ section.change {
   flex-direction: column;
   justify-content: space-around;
   background-color: #222;
+  padding: auto;
+  border-radius: 20px;
 }
 
 .video {
-  width: 25%;
-  margin: 0 2rem;
+  width: 30%;
+  margin: 5px;
   border-radius: 0.5rem;
   opacity: 0.8;
   box-shadow: 0.3rem 0.3rem 0.5rem #111;
@@ -539,4 +500,43 @@ section.change {
   opacity: 1;
   box-shadow: 0.5rem 0.5rem 1rem #111;
 }
-/* End of Section 3 */
+
+.videos-wrapper{
+  margin-left: 130px;
+}
+
+
+
+
+.jjkkjjk{
+  width: 100%;
+  height: 1000px;
+  background-color: #222;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
+.hhjjhhjjjj{
+  width: 90%;
+  height: 850px;
+  background-color: #555;
+  border-radius: 20px;
+}
+
+
+.ivvgb{
+  margin-top: 30px;
+  align-items: center;
+  display: flex;
+  justify-content: center;
+}
+
+
+.ivvgb h1{
+  text-transform: capitalize;
+  font-size: 40px;
+  color: rgb(68, 2, 166);
+  text-shadow: 0.3rem 0.3rem 0.5rem rgb(255, 255, 255);
+}
