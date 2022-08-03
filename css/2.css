@@ -34,7 +34,7 @@ header .logo {
   border-radius: 20px;
 }
 
-header .menu-bar  {
+header .menu-bar {
   color: gold;
   display: flex;
   justify-content: center;
@@ -43,7 +43,7 @@ header .menu-bar  {
   padding: 6px 15px;
 }
 
-header .menu-bar  li {
+header .menu-bar li {
   color: gold;
   margin-right: 30px;
   padding: 6px 15px;
@@ -55,11 +55,11 @@ header ul li a {
   padding: 6px 15px;
   border-radius: 20px;
 }
-.sub-menu-1{
+.sub-menu-1 {
   display: none;
 }
 
-header .menu-bar li:hover .sub-menu-1{
+header .menu-bar li:hover .sub-menu-1 {
   display: block;
   position: absolute;
   background: rgb(36, 36, 36);
@@ -67,20 +67,24 @@ header .menu-bar li:hover .sub-menu-1{
   margin-top: 10px;
   margin-left: -15px;
 }
-header ul li a:hover ,.sub-menu-1 ul{
+header ul li a:hover,
+.sub-menu-1 ul {
   display: block;
 }
-header ul li a:hover ,.sub-menu-1 ul li{
+header ul li a:hover,
+.sub-menu-1 ul li {
   background-color: transparent;
   border-bottom: 1px solid white;
 }
-header ul li a:hover ,.sub-menu-1 ul li:last-child{
+header ul li a:hover,
+.sub-menu-1 ul li:last-child {
   border-bottom: none;
 }
-header ul li a:hover ,.sub-menu-1 ul li:first-child{
+header ul li a:hover,
+.sub-menu-1 ul li:first-child {
   border-top: 2px dotted white;
 }
-header ul li a:hover{
+header ul li a:hover {
   font-family: Georgia, "Times New Roman", Times, serif Script MT;
   background: gold;
   color: rgb(49, 49, 49);
@@ -116,7 +120,7 @@ header ul li a:hover{
   color: rgb(68, 16, 16);
   padding: 30px;
 }
-.content div{
+.content div {
   border-radius: 20px;
 }
 .content h2 {
@@ -134,7 +138,17 @@ p {
   font-family: cursive;
   font-size: xx-small;
   text-align: center;
-  color: #ffff;
+  color: rgb(255, 255, 255);
+  letter-spacing: 4px;
+  opacity: 50%;
+  margin-bottom: 20px;
+  text-transform: uppercase;
+}
+.footer-bottom2 {
+  font-family: cursive;
+  font-size: xx-small;
+  text-align: center;
+  color: rgb(255, 255, 255);
   letter-spacing: 4px;
   opacity: 50%;
   margin-bottom: 20px;
@@ -181,7 +195,6 @@ footer {
   color: #441010;
   transform: scale(1.1);
 }
-
 .img1 {
   width: 500px;
   height: 300px;
@@ -191,13 +204,12 @@ footer {
   border-radius: 20px;
   transition-duration: 1s;
 }
-.img1:hover{
+.img1:hover {
   transform: rotate(360deg) scale(1.2);
   border: 2px double black;
 }
-.wwqqq h2 ,
-span
-{
+.wwqqq h2,
+span {
   font-family: cursive;
 }
 .wwqqq {
@@ -223,13 +235,9 @@ span
   margin-left: 10px;
 }
 
-.wwqqq:hover span{
+.wwqqq:hover span {
   color: red;
-  text-shadow: 0 0 10px gold,
-  0 0 30px,
-  0 0 50px,
-  0 0 70px,
-  0 0 90px;
+  text-shadow: 0 0 10px gold, 0 0 30px, 0 0 50px, 0 0 70px, 0 0 90px;
 }
 .qmq {
   display: flex;
