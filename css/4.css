@@ -138,7 +138,17 @@ p {
   font-family: cursive;
   font-size: xx-small;
   text-align: center;
-  color: #ffff;
+  color: rgb(255, 255, 255);
+  letter-spacing: 4px;
+  opacity: 50%;
+  margin-bottom: 20px;
+  text-transform: uppercase;
+}
+.footer-bottom2 {
+  font-family: cursive;
+  font-size: xx-small;
+  text-align: center;
+  color: rgb(255, 255, 255);
   letter-spacing: 4px;
   opacity: 50%;
   margin-bottom: 20px;
@@ -184,42 +194,6 @@ footer {
 .socials a:hover {
   color: #441010;
   transform: scale(1.1);
-}
-#l1 {
-  margin: 20px auto;
-  width: auto;
-  color: rgb(48, 0, 0);
-  font-family: monospace Script MT;
-  font-size: 30px;
-  text-transform: uppercase;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  list-style: none;
-}
-#l2 {
-  margin: 20px auto;
-  width: auto;
-  color: rgb(48, 0, 0);
-  font-family: monospace Script MT;
-  font-size: 30px;
-  text-transform: uppercase;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  list-style: none;
-}
-#l3 {
-  margin: 20px auto;
-  width: 330px;
-  color: rgb(48, 0, 0);
-  font-family: monospace Script MT;
-  font-size: 30px;
-  text-transform: uppercase;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  list-style: none;
 }
 .img1 {
   width: 500px;
