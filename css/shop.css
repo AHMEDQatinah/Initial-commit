@@ -1,0 +1,314 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Times New Roman", Times, serif;
+}
+
+body {
+  height: 100vh;
+}
+
+a {
+  text-decoration: none;
+  color: rgb(60, 0, 0);
+}
+
+header {
+  color: rgb(60, 0, 0);
+  position: absolute;
+  width: 95%;
+  z-index: 100;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 30px;
+  letter-spacing: 2px;
+}
+
+header .logo {
+  color: rgb(60, 0, 0);
+  font-family: Georgia, "Times New Roman", Times, serif Script MT;
+  font-size: 35px;
+  text-transform: uppercase;
+  padding: 6px 15px;
+  border-radius: 20px;
+}
+
+header .menu-bar {
+  color: rgb(60, 0, 0);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  list-style: none;
+  padding: 6px 15px;
+}
+
+header .menu-bar li {
+  color: rgb(60, 0, 0);
+  margin-right: 30px;
+  padding: 6px 15px;
+}
+
+header ul li a {
+  color: rgb(60, 0, 0);
+  font-family: Georgia, "Times New Roman", Times, serif Script MT;
+  padding: 6px 15px;
+  border-radius: 20px;
+}
+.sub-menu-1 {
+  display: none;
+}
+
+header .menu-bar li:hover .sub-menu-1 {
+  display: block;
+  position: absolute;
+  background: rgb(255, 255, 255);
+  color: rgb(60, 0, 0);
+  margin-top: 10px;
+  margin-left: -15px;
+}
+header ul li a:hover,
+.sub-menu-1 ul {
+  display: block;
+}
+header ul li a:hover,
+.sub-menu-1 ul li {
+  background-color: transparent;
+  border-bottom: 1px solid white;
+}
+header ul li a:hover,
+.sub-menu-1 ul li:last-child {
+  border-bottom: none;
+}
+header ul li a:hover,
+.sub-menu-1 ul li:first-child {
+  border-top: 2px dotted white;
+}
+header ul li a:hover {
+  font-family: Georgia, "Times New Roman", Times, serif Script MT;
+  background: rgb(60, 0, 0);
+  color: rgb(255, 255, 255);
+  border-radius: 20px;
+  padding: 6px 15px;
+}
+
+.main {
+  position: relative;
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+}
+
+.main::after {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  height: 100px;
+  width: 100%;
+}
+
+.main img {
+  position: absolute;
+  width: 105%;
+  height: 100vh;
+}
+
+.footer-bottom {
+  font-family: cursive;
+  font-size: xx-small;
+  text-align: center;
+  color: rgb(255, 255, 255);
+  letter-spacing: 4px;
+  opacity: 50%;
+  margin-bottom: 20px;
+  text-transform: uppercase;
+}
+.footer-bottom2 {
+  font-family: cursive;
+  font-size: xx-small;
+  text-align: center;
+  color: rgb(255, 255, 255);
+  letter-spacing: 4px;
+  opacity: 50%;
+  margin-bottom: 20px;
+  text-transform: uppercase;
+}
+
+.row1 {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+footer {
+  padding: 20px;
+  width: 97.5%;
+  margin-top: 20px;
+}
+
+.footer-content {
+  width: 97.5%;
+  height: auto;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  font-size: small;
+  text-align: center;
+  color: #ffff;
+  letter-spacing: 4px;
+  line-height: 30px;
+}
+#link {
+  color: #ffff;
+  text-decoration: rgb(246, 255, 0) underline;
+  font-family: cursive;
+  font-size: 25px;
+}
+.socials a {
+  display: inline-block;
+  font-size: 2.5em;
+  padding: 15px;
+  transition: 0.5s;
+}
+
+.socials a:hover {
+  color: #441010;
+  transform: scale(1.1);
+}
+.img1 {
+  width: 300px;
+  height: 270px;
+}
+.qmq {
+  display: flex;
+  margin: 20px 20px;
+  margin-top: 100px;
+  justify-content: center;
+  align-items: center;
+}
+.Mercedes {
+  margin: 0px;
+  padding: 0px;
+  width: 700px;
+  height: 270px;
+  display: flex;
+  box-shadow: 0rem 0rem 0.6rem rgb(23, 23, 23), 0rem 0rem 1rem rgb(23, 23, 23);
+}
+.ddf {
+  margin: 20px;
+}
+.dd .ddfff {
+  margin: 10px;
+  display: flex;
+  justify-content:right;
+  align-items: center;
+  color: brown;
+  font-size: 25px;
+}
+
+
+.Jaguar {
+  margin: 0px;
+  padding: 0px;
+  width: 700px;
+  height: 270px;
+  display: flex;
+  box-shadow: 0rem 0rem 0.6rem rgb(23, 23, 23), 0rem 0rem 1rem rgb(23, 23, 23);
+}
+.qaq {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 20px 20px;
+}
+.ChevroletCorvette {
+  margin: 0px;
+  padding: 0px;
+  width: 700px;
+  height: 270px;
+  display: flex;
+  box-shadow: 0rem 0rem 0.6rem rgb(23, 23, 23), 0rem 0rem 1rem rgb(23, 23, 23);
+}
+.AstonMartin {
+  margin: 0px;
+  padding: 0px;
+  width: 700px;
+  height: 270px;
+  display: flex;
+  box-shadow: 0rem 0rem 0.6rem rgb(23, 23, 23), 0rem 0rem 1rem rgb(23, 23, 23);
+  line-height: 1.3;
+}
+
+.qwq {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 20px 20px;
+}
+.BMW {
+  margin: 0px;
+  padding: 0px;
+  width: 700px;
+  height: 270px;
+  display: flex;
+  box-shadow: 0rem 0rem 0.6rem rgb(23, 23, 23), 0rem 0rem 1rem rgb(23, 23, 23);
+}
+.Rolls-Royce {
+  margin: 0px;
+  padding: 0px;
+  width: 700px;
+  height: 270px;
+  display: flex;
+  box-shadow: 0rem 0rem 0.6rem rgb(23, 23, 23), 0rem 0rem 1rem rgb(23, 23, 23);
+}
+.qrq {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 20px 20px;
+}
+.Ford {
+  margin: 0px;
+  padding: 0px;
+  width: 700px;
+  height: 270px;
+  display: flex;
+  box-shadow: 0rem 0rem 0.6rem rgb(23, 23, 23), 0rem 0rem 1rem rgb(23, 23, 23);
+  font-size: 18px;
+  line-height: 1.3;
+}
+.Toyota {
+  margin: 0px;
+  padding: 0px;
+  width: 700px;
+  height: 270px;
+  display: flex;
+  box-shadow: 0rem 0rem 0.6rem rgb(23, 23, 23), 0rem 0rem 1rem rgb(23, 23, 23);
+}
+.qtq {
+  margin: 20px 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.Dodge {
+  margin: 0px;
+  padding: 0px;
+  width: 700px;
+  height: 270px;
+  display: flex;
+  box-shadow: 0rem 0rem 0.6rem rgb(23, 23, 23), 0rem 0rem 1rem rgb(23, 23, 23);
+}
+.Bugatti {
+  margin: 0px;
+  padding: 0px;
+  width: 700px;
+  height: 270px;
+  display: flex;
+  box-shadow: 0rem 0rem 0.6rem rgb(23, 23, 23), 0rem 0rem 1rem rgb(23, 23, 23);
+}
+.Bugatti h3{
+  font-size: 18px;
+}
