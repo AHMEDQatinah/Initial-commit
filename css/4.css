@@ -195,13 +195,12 @@ footer {
   color: #441010;
   transform: scale(1.1);
 }
-.img1 {
+.img1 ,.img3{
   width: 500px;
   height: 300px;
   display: block;
   margin: 20px auto;
   padding: 5px;
-  border-radius: 20px;
   transition-duration: 1s;
 }
 .img1:hover{
