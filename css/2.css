@@ -128,12 +128,6 @@ header ul li a:hover {
   font-size: 30px;
 }
 
-.content p {
-  margin: 20px;
-}
-p {
-  line-height: 2;
-}
 .footer-bottom {
   font-family: cursive;
   font-size: xx-small;
@@ -196,17 +190,28 @@ footer {
   transform: scale(1.1);
 }
 .img1 {
-  width: 500px;
-  height: 300px;
+  width: 750px;
+  height: 550px;
   display: block;
-  margin: 20px auto;
+  margin: 20px;
   padding: 5px;
   border-radius: 20px;
-  transition-duration: 1s;
+  transition-duration: 2s;
 }
 .img1:hover {
-  transform: rotate(360deg) scale(1.2);
-  border: 2px double black;
+  transform: scale(1.04) rotate(-1.5deg);
+}
+.img2 {
+  width: 790px;
+  height: 460px;
+  display: block;
+  margin: 20px;
+  padding: 5px;
+  border-radius: 20px;
+  transition-duration: 2s;
+}
+.img2:hover {
+  transform: scale(1.04) rotate(-1.5deg);
 }
 .wwqqq h2,
 span {
@@ -239,129 +244,109 @@ span {
   color: red;
   text-shadow: 0 0 10px gold, 0 0 30px, 0 0 50px, 0 0 70px, 0 0 90px;
 }
-.qmq {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
+
 .Mercedes {
   margin: 40px;
-  padding: 40px;
-  border: 3px solid #4e0649;
-  width: 550px;
-  height: 900px;
+  padding: 30px;
+  box-shadow:  0.0rem 0.0rem 0.6rem rgb(23, 23, 23),
+  0.0rem 0.0rem 1rem rgb(23, 23, 23);
+  width: 1360px;
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
   line-height: 1.5;
 }
 .Jaguar {
   margin: 40px;
-  padding: 40px;
-  border: 3px solid #4e0649;
-  width: 550px;
-  height: 900px;
+  padding: 30px;
+  box-shadow:  0.0rem 0.0rem 0.6rem rgb(23, 23, 23),
+  0.0rem 0.0rem 1rem rgb(23, 23, 23);
+  width: 1360px;
   display: flex;
-  flex-direction: column-reverse;
+  flex-direction: row;
   line-height: 1.5;
 }
-.qaq {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
+
 .ChevroletCorvette {
   margin: 40px;
-  padding: 40px;
-  border: 3px solid #4e0649;
-  width: 550px;
-  height: 750px;
+  padding: 30px;
+  box-shadow:  0.0rem 0.0rem 0.6rem rgb(23, 23, 23),
+  0.0rem 0.0rem 1rem rgb(23, 23, 23);
+  width: 1360px;
   display: flex;
-  flex-direction: column-reverse;
-  line-height: 1.8;
+  flex-direction: row;
+  line-height: 1.5;
 }
 .AstonMartin {
   margin: 40px;
-  padding: 40px;
-  border: 3px solid #4e0649;
-  width: 550px;
-  height: 750px;
+  padding: 30px;
+  box-shadow:  0.0rem 0.0rem 0.6rem rgb(23, 23, 23),
+  0.0rem 0.0rem 1rem rgb(23, 23, 23);
+  width: 1360px;
   display: flex;
-  flex-direction: column;
-  line-height: 1.8;
-}
-
-.qwq {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-.BMW {
-  margin: 40px;
-  padding: 40px;
-  border: 3px solid #4e0649;
-  width: 550px;
-  height: 950px;
-  display: flex;
-  flex-direction: column;
-  line-height: 1.8;
-}
-.Rolls-Royce {
-  margin: 40px;
-  padding: 40px;
-  border: 3px solid #4e0649;
-  width: 550px;
-  height: 950px;
-  display: flex;
-  flex-direction: column-reverse;
+  flex-direction: row;
   line-height: 1.5;
 }
-.qrq {
+
+.BMW {
+  margin: 40px;
+  padding: 30px;
+  box-shadow:  0.0rem 0.0rem 0.6rem rgb(23, 23, 23),
+  0.0rem 0.0rem 1rem rgb(23, 23, 23);
+  width: 1360px;
   display: flex;
-  justify-content: center;
-  align-items: center;
+  flex-direction: row;
+  line-height: 1.5;
 }
+
+.Rolls-Royce {
+  margin: 40px;
+  padding: 30px;
+  box-shadow:  0.0rem 0.0rem 0.6rem rgb(23, 23, 23),
+  0.0rem 0.0rem 1rem rgb(23, 23, 23);
+  width: 1360px;
+  display: flex;
+  flex-direction: row;
+  line-height: 1.5;
+}
+
 .Ford {
   margin: 40px;
-  padding: 40px;
-  border: 3px solid #4e0649;
-  width: 550px;
-  height: 900px;
+  padding: 30px;
+  box-shadow:  0.0rem 0.0rem 0.6rem rgb(23, 23, 23),
+  0.0rem 0.0rem 1rem rgb(23, 23, 23);
+  width: 1360px;
   display: flex;
-  flex-direction: column;
-  line-height: 1.8;
+  flex-direction: row;
+  line-height: 1.5;
 }
 .Toyota {
   margin: 40px;
-  padding: 40px;
-  border: 3px solid #4e0649;
-  width: 550px;
-  height: 900px;
+  padding: 30px;
+  box-shadow:  0.0rem 0.0rem 0.6rem rgb(23, 23, 23),
+  0.0rem 0.0rem 1rem rgb(23, 23, 23);
+  width: 1360px;
   display: flex;
-  flex-direction: column-reverse;
-  line-height: 1.8;
+  flex-direction: row;
+  line-height: 1.5;
 }
-.qtq {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
+
 .Dodge {
   margin: 40px;
-  padding: 40px;
-  border: 3px solid #4e0649;
-  width: 550px;
-  height: 740px;
+  padding: 30px;
+  box-shadow:  0.0rem 0.0rem 0.6rem rgb(23, 23, 23),
+  0.0rem 0.0rem 1rem rgb(23, 23, 23);
+  width: 1360px;
   display: flex;
-  flex-direction: column;
-  line-height: 1.8;
+  flex-direction: row;
+  line-height: 1.5;
 }
 .Bugatti {
   margin: 40px;
-  padding: 40px;
-  border: 3px solid #4e0649;
-  width: 550px;
-  height: 740px;
+  padding: 30px;
+  box-shadow:  0.0rem 0.0rem 0.6rem rgb(23, 23, 23),
+  0.0rem 0.0rem 1rem rgb(23, 23, 23);
+  width: 1360px;
   display: flex;
-  flex-direction: column-reverse;
-  line-height: 1.8;
+  flex-direction: row;
+  line-height: 1.5;
 }

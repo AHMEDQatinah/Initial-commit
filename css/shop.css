@@ -14,14 +14,15 @@ a {
 }
 
 header {
+  background-color: rgba(222, 184, 135, 0.581);
   color: rgb(60, 0, 0);
   position: absolute;
-  width: 95%;
+  width: 96.2%;
   z-index: 100;
   display: flex;
   justify-content: space-between;
   align-items: center;
-  margin: 30px;
+  padding: 30px;
   letter-spacing: 2px;
 }
 
@@ -311,4 +312,19 @@ footer {
 }
 .Bugatti h3{
   font-size: 18px;
+}
+.dddd{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+.eeddeeww{
+  color: brown;
+  font-size: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  font-family: cursive;
 }

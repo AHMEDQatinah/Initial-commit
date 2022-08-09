@@ -195,7 +195,7 @@ footer {
   color: #441010;
   transform: scale(1.1);
 }
-.img1 ,.img3{
+.img1 {
   width: 500px;
   height: 300px;
   display: block;
@@ -204,8 +204,7 @@ footer {
   transition-duration: 1s;
 }
 .img1:hover{
-  transform: rotate(360deg) scale(1.2);
-  border: 2px double black;
+  transform:scale(1.2);
 }
 .Canada {
   color: rgb(0, 0, 0);
