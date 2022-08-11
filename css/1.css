@@ -250,7 +250,7 @@ span {
   padding: 40px;
   border: 3px solid #4e0649;
   width: 550px;
-  height: 900px;
+  height: 760px;
   display: flex;
   flex-direction: column;
 }
@@ -259,7 +259,7 @@ span {
   padding: 40px;
   border: 3px solid #4e0649;
   width: 550px;
-  height: 900px;
+  height: 760px;
   display: flex;
   flex-direction: column-reverse;
 }
@@ -273,7 +273,7 @@ span {
   padding: 40px;
   border: 3px solid #4e0649;
   width: 550px;
-  height: 750px;
+  height: 710px;
   display: flex;
   flex-direction: column-reverse;
   line-height: 1.8;
@@ -283,7 +283,7 @@ span {
   padding: 40px;
   border: 3px solid #4e0649;
   width: 550px;
-  height: 750px;
+  height: 710px;
   display: flex;
   flex-direction: column;
   line-height: 1.8;
@@ -299,7 +299,7 @@ span {
   padding: 40px;
   border: 3px solid #4e0649;
   width: 550px;
-  height: 950px;
+  height: 910px;
   display: flex;
   flex-direction: column;
   line-height: 1.8;
@@ -309,7 +309,7 @@ span {
   padding: 40px;
   border: 3px solid #4e0649;
   width: 550px;
-  height: 950px;
+  height: 910px;
   display: flex;
   flex-direction: column-reverse;
 }
@@ -323,7 +323,7 @@ span {
   padding: 40px;
   border: 3px solid #4e0649;
   width: 550px;
-  height: 900px;
+  height: 880px;
   display: flex;
   flex-direction: column;
   line-height: 1.8;
@@ -333,7 +333,7 @@ span {
   padding: 40px;
   border: 3px solid #4e0649;
   width: 550px;
-  height: 900px;
+  height: 880px;
   display: flex;
   flex-direction: column-reverse;
   line-height: 1.8;
@@ -362,4 +362,27 @@ span {
   display: flex;
   flex-direction: column-reverse;
   line-height: 1.8;
+}
+.logo{
+  display: flex;
+  justify-content: center;
+  transition-duration: 1s;
+}
+
+.logo img{
+  height: 70px;
+  padding: 15px;
+  transition-duration: 1s;    opacity: .5;
+  transition: all 0.2s linear 0s;
+  filter: grayscale(100%);
+  vertical-align: top;
+}
+.logo img:hover{
+  transform: scale(1.5);
+  margin-left: 10px;
+  margin-right: 10px;
+  opacity: 1;
+  transition: all 0.2s linear 0s;
+  filter: grayscale(0%);
+  vertical-align: top;
 }

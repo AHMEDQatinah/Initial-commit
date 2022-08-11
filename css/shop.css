@@ -14,7 +14,7 @@ a {
 }
 
 header {
-  background-color: rgba(222, 184, 135, 0.581);
+  background-color: rgba(222, 184, 135, 0.211);
   color: rgb(60, 0, 0);
   position: absolute;
   width: 96.2%;
@@ -103,6 +103,24 @@ header ul li a:hover {
   overflow: hidden;
 }
 
+.dddd{
+  position: absolute;
+  background-color: #4410102c;
+  padding: 12px;
+  align-items: center;
+  text-align: center;
+  width: 345px;
+}
+.eeddeeww{
+  color: rgb(255, 255, 255);
+  font-size: 60px;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  font-family: cursive;
+  text-shadow: 7px 8px 10px rgb(0, 0, 0);
+  text-decoration: 4px underline;
+}
 .main::after {
   content: "";
   position: absolute;
@@ -312,19 +330,4 @@ footer {
 }
 .Bugatti h3{
   font-size: 18px;
-}
-.dddd{
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  text-align: center;
-}
-.eeddeeww{
-  color: brown;
-  font-size: 40px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  text-align: center;
-  font-family: cursive;
 }

@@ -433,9 +433,23 @@ section.change {
 .logo{
   display: flex;
   justify-content: center;
+  transition-duration: 1s;
 }
 
 .logo img{
-  height: 80px;
+  height: 70px;
   padding: 15px;
+  transition-duration: 1s;    opacity: .5;
+  transition: all 0.2s linear 0s;
+  filter: grayscale(100%);
+  vertical-align: top;
+}
+.logo img:hover{
+  transform: scale(1.5);
+  margin-left: 10px;
+  margin-right: 10px;
+  opacity: 1;
+  transition: all 0.2s linear 0s;
+  filter: grayscale(0%);
+  vertical-align: top;
 }
